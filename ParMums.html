@@ -5,22 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Par Mums, Kontakti, Atsauksmes</title>
+    <link rel="stylesheet" href="./style.css">
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f8f9fa;
         }
 
         header {
-            background-color: #333;
+            background-color: #343a40;
             color: #fff;
             text-align: center;
-            padding: 20px 0;
+            padding: 5px 0;
         }
 
         nav {
-            background-color: #f4f4f4;
+            background-color: #2c3e50;
             padding: 10px 0;
         }
 
@@ -38,41 +40,35 @@
 
         nav ul li a {
             text-decoration: none;
-            color: #333;
+            color: whitesmoke;
             font-weight: bold;
-        }
-
-        #par-mums {
-            background-color: grey;
-            color: #333;
-        }
-
-        #kontakti {
-            background-color: grey;
-            color: #fff;
-        }
-
-        #atsauksmes {
-            background-color: grey;
-            color: #fff;
         }
 
         section {
             padding: 20px;
+            background-color: #34495e;
+            margin-bottom: 20px;
+            border-radius: 5px;
         }
 
         footer {
-            background-color: #333;
+            background-color: #343a40;
             color: #fff;
             text-align: center;
             padding: 20px 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .testimonial-form {
+            text-align: center;
         }
     </style>
 </head>
 
 <body>
     <header>
-        <h1>Par mums!</h1>
+        <h1 style = "font-size: 24px;">Par mums!</h1>
     </header>
 
     <nav>
@@ -80,35 +76,41 @@
             <li><a href="#par-mums">Par Mums</a></li>
             <li><a href="#kontakti">Kontakti</a></li>
             <li><a href="#atsauksmes">Atsauksmes</a></li>
+            <li><a href="./index.html">Atpakaļ</a></li>
         </ul>
     </nav>
 
     <section id="par-mums">
         <h2>Par Mums</h2>
-        <p>Sveiki! Es esmu Markuss, un šis ir mans skolas projekts par izgudroto uzņēmumu. Mūsu uzņēmums ir vērienīgs
-            jauninājumu veicinātājs, kas īsteno inovatīvas idejas reālās dzīves situācijās. Mūsu misija ir
-            radīt tehnoloģijas, kas padara dzīvi vieglāku un efektīvāku visiem. Mēs esam lepni piedāvāt jums
-            iespēju iepazīties ar mūsu darbu un apskatīt mūsu projekta sadaļas.</p>
+        <p>Sveiki, šī mājas lapa ir domāta lai gūtu nelielu priekšstatu par vissvarīgākajām tehnoloģijām mūsdienās, un to pielietojumu, kas var ļoti noderēt dzīvē!</p>
     </section>
-<hr>
+
     <section id="kontakti">
         <h2>Kontakti</h2>
         <p>Lai sazinātos ar mums, lūdzu, izmantojiet zemāk norādītos kontaktus:</p>
-        <p>E-pasts: markuskruze@gmail.com</p>
+        <p>E-pasts: <b>markusskruze@gmail.com</b></p>
+        <p>Telefona numurs: <b>29857354</b></p>
     </section>
-<hr>
+
     <section id="atsauksmes">
         <h2>Atsauksmes</h2>
-        <p>Šeit jūs varat atrast klientu atsauksmes par mūsu pakalpojumiem un projektu:</p>
-        <blockquote>
-            "Es ļoti novērtēju mūsuuznemuma sniegto palīdzību un profesionālismu. Viņu jauninājumi ir ievērojami uzlabojuši mūsu ikdienu." - Anna</blockquote>
-        <blockquote>
-            "Paldies par lielisko pieredzi! Es esmu ļoti apmierināts ar rezultātiem, ko mums sniedza Mūsu Uzņēmums." -
-            Jānis</blockquote>
+        <p>Šeit jūs varat iesniegt atsauksmes par šo mājaslapu.</p>
+        
+        <div class="footer-section contact-form">
+            <h3>Sazināties</h3>
+            <form action="#" method="post">
+                <input type="email" name="email" class="text-input contact-input" placeholder="Jūsu e-pasta adrese..." style="max-width: 250px;"><br>
+                <textarea name="message" class="text-input contact-input" placeholder="Jūsu ziņa..."></textarea><br>
+                <button type="submit" class="btn btn-big contact-btn" style = "max-width: 80px;">
+                    <i class="fas fa-envelope"></i>
+                    Sūtīt
+                </button>
+            </form>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Mūsu Uzņēmums. Visas tiesības aizsargātas.</p>
+        <p>&copy; 2024 Mūsu Uzņēmums.</p>
     </footer>
 </body>
 
