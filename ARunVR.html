@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Augmented reality</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 5px 0;
+        }
+
+        nav {
+            background-color: #2c3e50;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: whitesmoke;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+            background-color: #34495e;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 60px 0;
+        }
+
+        .footer-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .footer-section {
+            flex: 1;
+            min-width: 250px;
+            margin-bottom: 20px;
+        }
+
+        .footer-section h3 {
+            color: #fff;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .footer-section p {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-section ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .contact-form textarea {
+            height: 120px;
+        }
+
+        .contact-form .btn {
+            background-color: #db4437;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form .btn:hover {
+            background-color: #c5372b;
+        }
+
+        .footer-bottom {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="font-size: 24px;">Vēl informācija par Augmented reality un Virtual reality</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#par-mums">Par Mums</a></li>
+            <li><a href="#kontakti">Kontakti</a></li>
+            <li><a href="#atsauksmes">Atsauksmes</a></li>
+            <li><a href="./index.html">Atpakaļ</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div>
+            <p>
+                Paplašinātā realitāte (AR) un virtuālā realitāte (VR) ir tehnoloģijas, kas ļauj lietotājiem
+                mijiedarboties ar virtuālu vai paplašinātu vidi.
+                AR papildina reālo pasauli ar virtuāliem objektiem, kamēr VR piedāvā pilnīgi iedomātu vidi, ko lietotājs
+                var izpētīt un ietekmēt.
+
+                AR un VR tiek izmantotas plašā spektrā nozarēs, ieskaitot izglītību, izklaides un rūpniecību. Piemēri
+                ietver viedās brilles, kuras papildina reālo pasauli ar virtuāliem objektiem, un VR galvasseglus, kas
+                ļauj lietotājiem ieiet pilnīgi virtuālās vides.
+
+                Lai saprastu Augmented Reality (AR) un Virtual Reality (VR) nozīmi un pielietojumus, ir svarīgi izprast
+                to tehnoloģisko bāzi un iespējas. AR ļauj paplašināt reālo pasauli ar virtuālām informācijas
+                projekcijām, kurās lietotāji var mijiedarboties un sajust paplašinātās realitātes elementus. VR
+                nodrošina pilnīgi jaunu virtuālo vidi, kurā lietotāji var ieiet un izpētīt virtuālus pasaulus. Šīs
+                tehnoloģijas tiek izmantotas izglītībā, lai uzlabotu mācīšanos un pieredzi, izklaides nozarē, lai radītu
+                interaktīvas spēles un pieredzes, un rūpniecībā, lai simulētu treniņus un izmēģinājumus.
+            </p>
+        </div>
+        <div style="position: relative;">
+            <img src="data:image/jpeg;base64,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"
+                style="height: 200px; width: 200px;">
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XPNUmcEOYW0?si=siV2ISFJKOv7YiPh"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>Par Mums</h3>
+                <p>Mājas lapa par interesantiem faktiem kuri ir par datoriem!</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Saites</h3>
+                <ul>
+                    <li><a href="./index.html">Sākumlapa</a></li>
+                    <li><a href="./ParMums.html">Par Mums</a></li>
+                    <li><a href="./ParMums.html">Kontakti</a></li>
+                    <li><a href="./ParMums.html">Atsauksmes</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact-form">
+                <h3>Sazināties</h3>
+                <form action="#" method="post">
+                    <input type="email" name="email" class="text-input contact-input"
+                        placeholder="Jūsu e-pasta adrese...">
+                    <textarea name="message" class="text-input contact-input" placeholder="Jūsu ziņa..."></textarea>
+                    <button type="submit" class="btn btn-big contact-btn">
+                        <i class="fas fa-envelope"></i>
+                        Sūtīt
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 Tehnoloģijas Mūsdienās!
+        </div>
+    </footer>
+</body>
+
+</html>

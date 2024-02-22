@@ -18,6 +18,8 @@ document.getElementById("aiButton").addEventListener("click", function() {
         <p>
         Lai saprastu Mākslīgā Intelekta un Mašīnmācīšanās nozīmi un potenciālu, ir svarīgi apzināties to pielietojumus dažādās nozarēs. Piemēram, veselības aprūpē, AI un mašīnmācīšanās tiek izmantotas slimību diagnostikā, pacientu aprūpes personalizēšanā un medikamentu izstrādē. Tirdzniecībā un finansēs AI var palīdzēt prognozēt tirgus tendences, izstrādāt efektīvākus tirdzniecības algoritmus un veikt riska novērtēšanu. Turklāt AI tiek izmantota arī ražošanas nozarē, lai optimizētu ražošanas procesus un uzlabotu produktu kvalitāti.
         </p>
+        spied <a href="./AiUnMasinMacibas.html">šeit</a> lai iegūtu vairāk informāciju par šo tēmu.
+
     `;
 });
 
@@ -33,6 +35,7 @@ document.getElementById("blockchainButton").addEventListener("click", function()
         <p>
             Lai pilnībā saprastu Blockchain tehnoloģiju, ir svarīgi izprast tās darbības principus un īpašības. Galvenās īpašības ietver decentralizāciju, neizdzēšamību, kriptogrāfiju un konsensa mehānismu. Decentralizācija nozīmē, ka dati tiek glabāti un pārvaldīti bez centrālās autoritātes, kas nodrošina lielāku drošību un uzticamību. Neizdzēšamība nozīmē, ka reģistrētie dati nevar tikt mainīti vai izdzēsti, nodrošinot nepārtrauktu datu integritāti. Kriptogrāfija nodrošina datu drošību, izmantojot šifrēšanas metodes, kas aizsargā informāciju no neautorizētas piekļuves. Konsensa mehānisms nodrošina vienprātību par jauniem datu ierakstiem un transakcijām visos tīkla dalībniekos.
         </p>
+        spied <a href="./blockchain.html">šeit</a> lai iegūtu vairāk informāciju par šo tēmu.
     `;
 });
 
@@ -48,6 +51,8 @@ document.getElementById("iotButton").addEventListener("click", function() {
         <p>
             Lai pilnībā saprastu Internet of Things (IoT), ir svarīgi izprast tās darbības principus un pielietojumus. IoT ietver sensoru un saiknes tīklu izmantošanu, lai savienotu un automatizētu ierīces un sistēmas. Šīs sistēmas spēj uzkrāt un apstrādāt lielu daudzumu dati, kas var tikt izmantoti, lai pieņemtu lēmumus, uzlabotu efektivitāti un uzlabotu lietotāju pieredzi. IoT tiek izmantots dažādās nozarēs, piemēram, rūpniecībā, transportācijā, enerģētikā un veselības aprūpē, lai uzlabotu ražošanas procesus, pārvaldītu infrastruktūru un nodrošinātu pacientu aprūpi.
         </p>
+        spied <a href="./iot.html">šeit</a> lai iegūtu vairāk informāciju par šo tēmu.
+
     `;
 });
 
@@ -63,6 +68,8 @@ document.getElementById("arvrButton").addEventListener("click", function() {
         <p>
             Lai saprastu Augmented Reality (AR) un Virtual Reality (VR) nozīmi un pielietojumus, ir svarīgi izprast to tehnoloģisko bāzi un iespējas. AR ļauj paplašināt reālo pasauli ar virtuālām informācijas projekcijām, kurās lietotāji var mijiedarboties un sajust paplašinātās realitātes elementus. VR nodrošina pilnīgi jaunu virtuālo vidi, kurā lietotāji var ieiet un izpētīt virtuālus pasaulus. Šīs tehnoloģijas tiek izmantotas izglītībā, lai uzlabotu mācīšanos un pieredzi, izklaides nozarē, lai radītu interaktīvas spēles un pieredzes, un rūpniecībā, lai simulētu treniņus un izmēģinājumus.
         </p>
+        spied <a href="./ARunVR.html">šeit</a> lai iegūtu vairāk informāciju par šo tēmu.
+
     `;
 });
 
