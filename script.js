@@ -78,5 +78,6 @@ document.getElementById("cloudButton").addEventListener("click", function() {
         <p>
             Lai pilnībā saprastu Cloud Computing nozīmi un priekšrocības, ir svarīgi izprast tās darbības principus un pielietojumus. Cloud Computing nodrošina elastīgu un skalējamu piekļuvi datora resursiem, kas ļauj organizācijām pielāgoties mainīgajiem vajadzībām un pieprasījumiem. Tas arī nodrošina resursu kopīgošanu un sadalīšanu, kas samazina izmaksas un palielina efektivitāti. Cloud Computing piedāvā dažādas pakalpojumu modeļus, tostarp infrastruktūras kā pakalpojumu (IaaS), platformas kā pakalpojumu (PaaS) un programmatūras kā pakalpojumu (SaaS), kas atbilst dažādām organizāciju vajadzībām un prasībām.
         </p>
+        spied <a href="./CloudComp.html">šeit</a> lai iegūtu vairāk informāciju par šo tēmu.
     `;
 });

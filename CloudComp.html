@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Computing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 5px 0;
+        }
+
+        nav {
+            background-color: #2c3e50;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: whitesmoke;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+            background-color: #34495e;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            bottom: 0;
+            width: 100%;
+        }
+        footer {
+    background-color: #333;
+    color: #fff;
+    padding: 60px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+}
+
+.contact-form textarea {
+    height: 120px;
+}
+
+.contact-form .btn {
+    background-color: #db4437;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form .btn:hover {
+    background-color: #c5372b;
+}
+
+.footer-bottom {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="font-size: 24px;">Vēl informācija par cloud computing</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#par-mums">Par Mums</a></li>
+            <li><a href="#kontakti">Kontakti</a></li>
+            <li><a href="#atsauksmes">Atsauksmes</a></li>
+            <li><a href="./index.html">Atpakaļ</a></li>
+        </ul>
+    </nav>
+    <section class="cloud-computing">
+        <div>
+            <p>
+                Cloud computing ir uzņēmējdarbības modelis, kas nodrošina pieejamību datorresursiem pēc pieprasījuma,
+                bez tiešas cilvēka iesaistes datu pārvaldībā vai aparatūras apkalpošanā. Tas ir atšķirīgs no
+                tradicionālās datorizācijas modeļa, kur dators vai datoru tīkls tiek lietots, lai piekļūtu un
+                pārvaldītu datiem, programmatūrai un datņu resursiem.
+            </p>
+            <p>
+                Cloud computing izmanto tādus terminus kā "cloud" (mākoņs) un "cloud computing" (mākoņu
+                skaitļošana), kas ir attēlojums interneta rakstura un ar to saistīto infrastruktūru kompleksam,
+                kas ir ārpus standarta iekārtu un programmatūras lietošanas robežām. Tās pamatā ir jebkuras datu
+                apstrādes, datu uzglabāšanas un datu pārraides operācijas, kas notiek mākoņos.
+            </p>
+        </div>
+        <div style = "position: relative;">
+            <img src="https://miro.medium.com/v2/resize:fit:640/1*ngkHgQq7ij1NBNr62er3zA.png"
+                style="height: 200px; width: 200px;">
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_a6us8kaq0g?si=nYtZeg71f9Rz6ES8"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>Par Mums</h3>
+                <p>Mājas lapa par interesantiem faktiem kuri ir par datoriem!</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Saites</h3>
+                <ul>
+                    <li><a href="./index.html">Sākumlapa</a></li>
+                    <li><a href="./ParMums.html">Par Mums</a></li>
+                    <li><a href="./ParMums.html">Kontakti</a></li>
+                    <li><a href="./ParMums.html">Atsauksmes</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact-form">
+                <h3>Sazināties</h3>
+                <form action="#" method="post">
+                    <input type="email" name="email" class="text-input contact-input" placeholder="Jūsu e-pasta adrese...">
+                    <textarea name="message" class="text-input contact-input" placeholder="Jūsu ziņa..."></textarea>
+                    <button type="submit" class="btn btn-big contact-btn">
+                        <i class="fas fa-envelope"></i>
+                        Sūtīt
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 Tehnoloģijas Mūsdienās!
+        </div>
+    </footer>
+</body>
+
+</html>
